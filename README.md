@@ -1,1 +1,5 @@
 # POO-2022
+
+I designed and implemented a web bookmark management system accessible to multiple users. Each bookmark in the system has a name, URL, and registration date, and while a bookmark belongs to a specific user, it can be shared with others. A bookmark's name is unique within a user's collection. The system also includes projects, which are collections of bookmarks. To associate a bookmark with a project, the user must either be the bookmark's author or have access to it through sharing. Projects have unique names and creation dates, and can contain both bookmarks and directories, with directories capable of containing other directories.
+
+In addition to the project creator, two other types of participants can be associated with a project: managers and members. A project manager can add and remove both bookmarks and directories, while a member can only add and remove bookmarks. The project creator also acts as a manager. The system also supports sessions, which are collections of bookmarks without directories. Each session has a unique name, a creation date, and belongs to a specific user.
